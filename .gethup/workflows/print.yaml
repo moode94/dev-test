@@ -7,10 +7,6 @@ name: print_hi
     jobs:
   say-hi:
     runs-on: ubuntu-latest
-
-    steps:
-       - name: Checkout code
+      steps:
         uses: actions/checkout@v4
-      
-      - name: Print Hi
         run: echo "Hi"
